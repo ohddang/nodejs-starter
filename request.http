@@ -1,0 +1,18 @@
+GET http://localhost:3000/api/members
+
+###
+
+POST http://localhost:3000/api/members
+Content-Type: application/json
+
+{
+  "id": 11,
+  "name": "John",
+  "team": "Hardware",
+  "position": "Android Developer",
+  "emailAddress": "emailgood@google.com",
+  "phoneNumber": "1234567890",
+  "admissionDate": "2021-01-01",
+  "birthDate": "1990-01-01",
+  "profileImage": "profile11.png"
+}
